@@ -1,0 +1,47 @@
+body {
+    background-color: dimgray;
+}
+
+.topbar {
+    background-color: midnightblue;
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+a {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#active {
+    color: black;
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
