@@ -53,6 +53,16 @@ a {
     right: 200px;
 }
 
+.small-text {
+    color:white;
+    font-size: 25px;
+    background-color: midnightblue;
+}
+
+.inline-image {
+    display: inline;
+}
+
 a:visited {
     text-decoration: none;
     color: white;
@@ -63,10 +73,14 @@ a:visited {
     background-color: white;
 }
 
-#ramps-logo {
-    position: absolute;
-    top: 100px;
-    left: 50px;
+#ramps-div {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.ramps-items {
+    display: inline;
+    margin-right: 20px;
 }
 
 #scouts-div {
