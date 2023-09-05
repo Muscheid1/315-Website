@@ -18,5 +18,24 @@
         <a href="service.html">Service</a>
         <a href="contact.html">Contact Me</a>
     </div>
+
+    <div class="center-text">
+        <p>
+            I am proficient in C++, Python, and Java. At a previous internship I worked to gather web data with Python scripts
+            and help out a client with his business. During a hackathon I created an educational video game with map exploration
+            and collectibles.
+        </p>
+    </div>
+
+    <div class="button-area">
+        <button id="openPdf">Open Resume</button>
+        <script>
+            const openPdfButton = document.getElementById("openPdf");
+    
+            openPdfButton.addEventListener("click", () => {
+                window.open("Grant Muirheid Resume.pdf", "_blank");
+            });
+        </script>
+    </div>
 </body>
 </html>
